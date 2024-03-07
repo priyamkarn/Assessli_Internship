@@ -34,3 +34,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# Project Documentation
+
+## Project Setup Instructions
+1. Clone the repository to your local machine.
+2. Ensure you have Node.js and npm installed on your machine.
+3. Navigate to the project directory in your terminal.
+4. Run `npm install` to install project dependencies.
+
+## How to Run the Project Locally
+1. After setting up the project, run `npm start` in the terminal.
+2. The React application will start and open in your default web browser.
+
+## Details on Google Sheets Integration
+- The project integrates with Google Sheets using the "API Spreadsheets" service.
+- Upon form submission, the data is sent to the specified Google Sheets endpoint using a POST request.
+- Ensure that the Google Sheets API endpoint is correctly configured and accessible.
+
+## Additional Features or Customizations Implemented
+1. **Form Validation**: Implemented client-side form validation to ensure that required fields are filled and email format and phone number format are correct.
+2. **Error Handling**: Errors are displayed below the respective input fields to indicate validation errors to the user.
+3. **Form Submission**: The form data is sent to the Google Sheets API endpoint upon successful validation.
+4. **Reset Form**: After successful submission, the form fields are reset to empty values.
+
+## Code Comments
+```javascript
+// Code comments are embedded within the code itself for better understanding.
